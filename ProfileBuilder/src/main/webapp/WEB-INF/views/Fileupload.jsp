@@ -8,16 +8,15 @@
 </head>
 <body>
 
-<form action="updateimage" method="post" enctype="multipart/form-data" accept="image/png, image/jpeg">
-<label >ID:</label>
-<input type="number" name="id"><br><br>
-<input type="file" name="file" required>
+<p> Hello See Here </p>
+
+<form action="getimage" method="get">
+
+<input type="number" name="id">
 <input type="submit">
 
 
 </form>
-
-
 
 </body>
 </html>
